@@ -76,9 +76,11 @@
                 $errors[] = "Stok harus diisi";
                 $valid = false;
             } elseif ($stok < 0) {
-                $errors[] = "Stok tidak boleh negatif";
+                $errors[] = "Stok tidak boleh negatif"; 
                 $valid = false;
-            }
+            
+            
+                }
             
             // Validasi ISBN
             if (empty($isbn)) {
